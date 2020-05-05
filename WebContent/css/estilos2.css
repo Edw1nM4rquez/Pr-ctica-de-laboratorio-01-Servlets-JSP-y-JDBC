@@ -1,6 +1,6 @@
 .rounded-circle {
-    width: 50%;
-    height:50%;
+    width: 5%;
+    height:5%;
   }
   
   .botonD{
@@ -22,5 +22,10 @@ color: black;}
 
 .imgfluid{
 	width: 100% \9;
+	height: 10%;
+}
+
+.img-fluid{
+	width: 200px;
 	height: 10%;
 }

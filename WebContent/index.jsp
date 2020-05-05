@@ -4,56 +4,49 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Telefono</title>
+<title>Inicio</title>
  		
  		
  		
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- 		<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+ 		<link rel="stylesheet" href="css/estilos2.css">
 
 </head>
 <body>
 <nav  class="navbar navbar-expand-lg  bg-dark navbar-dark">
-
-<!--  Aqui vamos a crear el menu despleglable -->
-<!-- Split dropright button -->
-<div class="btn-group dropright">
-  <button type="button" class="btn btn-secondary">
-    <img src="img/iconoUsuario.jpg" alt="..." class="rounded-circle" style="">
-  </button>
-  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropright</span>
-  </button>
-  <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
-     <ul>
- <li class="botonD"><a href="#">Perfil</a></li>
- <li class="botonD"><a href="#">Cerrar Sesion</a></li>
-
- </ul>
-  </div>
-</div>
-
-	
+<img src="img/Agendaico.jpg" alt="..." class="rounded-circle" style="">
         <a class="navbar-brand" href="#">&nbsp; Marquez.Local</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-        
-            
-          </ul>
+	          <ul class="navbar-nav mr-auto">
+	          
+	           <li class="nav-item active">
+	            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+	            </li>
+	           
+	            <li class="nav-item active">
+	            <a class="nav-link" href="#">Contactos <span class="sr-only">(current)</span></a>
+	               </li>
+	             
+	               <li class="nav-item active">
+	            <a class="nav-link" href="#">Mensajes <span class="sr-only">(current)</span></a>
+	        		</li>
+	            
+	          </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="titulo">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="buscarPorTituloPel(1)">Search</button>
+            
+            <input class="form-control mr-sm-2" type="text" placeholder="Correo"  id="Correo">
+             
+             <input class="form-control mr-sm-2" type="password" placeholder="Contraseña" a id="Contras">
+             
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="buscarPorTituloPel(1)">Registrarse</button>
           </form>
         </div>
       </nav>
@@ -70,5 +63,7 @@
           
         </ul>
       </nav>
+      
+      <img src="img/fondoAg.jpg" class="img-fluid" alt="Responsive image">
 </body>
 </html>
