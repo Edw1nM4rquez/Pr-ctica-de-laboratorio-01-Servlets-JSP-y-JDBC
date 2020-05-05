@@ -18,7 +18,7 @@
 </head>
 <body>
 <nav  class="navbar navbar-expand-lg  bg-dark navbar-dark">
-<img src="img/Agendaico.jpg" alt="..." class="rounded-circle" style="">
+<img src="img/iconoAgen.png" alt="..." class="rounded-circle" style="">
         <a class="navbar-brand" href="#">&nbsp; Marquez.Local</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@
              
              <input class="form-control mr-sm-2" type="password" placeholder="Contraseña" a id="Contras">
              
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="buscarPorTituloPel(1)">Registrarse</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="buscarPorTituloPel(1)">Iniciar Sesion</button>
           </form>
         </div>
       </nav>
@@ -64,6 +64,6 @@
         </ul>
       </nav>
       
-      <img src="img/fondoAg.jpg" class="img-fluid" alt="Responsive image">
+      <img src="img/fondoAg1.jpg" class="img-fluid" alt="Responsive image">
 </body>
 </html>
