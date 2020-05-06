@@ -30,14 +30,7 @@
 	           <li class="nav-item active">
 	            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
 	            </li>
-	           
-	            <li class="nav-item active">
-	            <a class="nav-link" href="#">Contactos <span class="sr-only">(current)</span></a>
-	               </li>
-	             
-	               <li class="nav-item active">
-	            <a class="nav-link" href="#">Mensajes <span class="sr-only">(current)</span></a>
-	        		</li>
+	
 	            
 	          </ul>
           <form class="form-inline my-2 my-lg-0">
