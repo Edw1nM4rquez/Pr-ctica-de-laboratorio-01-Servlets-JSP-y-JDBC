@@ -1,4 +1,13 @@
+.rounded-circle {
+    width: 5%;
+    height:5%;
+}
+
 .Formi{
-	padding-left: 200px;
+	padding-left: 300px;
  width: 50%;
+}
+
+.nav-link{
+	padding-left: 200px;
 }
