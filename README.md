@@ -1,6 +1,10 @@
 *Desarrollo de una aplicacion JEE basado en Servlets, JSP y JDBC para el intercambio de datos
  en un modelo de tres capas aplicando los patrones diseno de software MVC y DAO*
 
+<h2>Base de datos</h2>
+
+<img src="Imagenes/foto8.png">
+
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC”
 <img src="Imagenes/foto.png">
 

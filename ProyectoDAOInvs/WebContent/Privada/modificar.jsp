@@ -32,6 +32,7 @@
 <body class="is-preload">
 	<c:set var="p1" value="${requestScope['telefono']}" />
 	<c:set var="p2" value="${requestScope['usuario']}" />
+	
 	<!-- Header -->
 	<div id="header">
 
@@ -39,8 +40,7 @@
 
 			<!-- Logo -->
 			<div id="logo">
-				<span class="image avatar48"><img
-					src="/ProyectoDAO/config/images/avatar.jpg" alt="" /></span>
+				<span class="image avatar48">
 				<h1 id="title">${p2.nombres}${p2.apellidos}</h1>
 				<p>${p2.correo}</p>
 			</div>
@@ -58,23 +58,7 @@
 
 		</div>
 
-		<div class="bottom">
-
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span
-						class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span
-						class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span
-						class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span
-						class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span
-						class="label">Email</span></a></li>
-			</ul>
-
-		</div>
+		
 
 	</div>
 

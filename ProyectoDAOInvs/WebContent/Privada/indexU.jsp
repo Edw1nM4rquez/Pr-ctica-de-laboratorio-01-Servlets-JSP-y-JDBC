@@ -49,8 +49,9 @@
 				<ul>
 					<li><a href="/ProyectoDAO/IndexController?id=2&idU=${p2.cedula}" id="contact-link"><span class="icon solid fa-envelope">Contactos</span></a></li>
 					<li><a href="/ProyectoDAO/IndexController?id=1&c=${p2.cedula}"><span class="icon solid fa-home">Registrar nuevo contacto </span></a></li>
+					<li><a href="/ProyectoDAO/IndexController?id=3" class="button circled scrolly">Buscar Telefonos &#128214;</a></li>
 					<li><a href="/ProyectoDAO/CerrarSesion" id="top-link"><span class="icon solid fa-home">Cerrar sesion</span></a></li>
-
+					
 
 				</div>
 				

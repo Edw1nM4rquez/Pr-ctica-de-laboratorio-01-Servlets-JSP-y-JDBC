@@ -33,8 +33,6 @@ body {
 	line-height: 1;
 }
 
-
-		
 ol, ul {
 	list-style: none;
 }
@@ -2634,29 +2632,6 @@ input, select, textarea {
 
 	}
 	
-#parafoq{
-	top: 1.5em;
-			margin-bottom: 3em;
-			border-bottom-color: rgba(192, 192, 192, 0.35);
-			box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
-			background-color: white;
-}
-.is-preload{
-	background-image: url("/ProyectoDAO/Public/img/slider.jpg");
-}
-
-.input-group-text1{
-	background-color: yellow; 
-	border-radius:  10px;
-	width: 70%;
-	height:70%;
-} 
-
-
-.main2{
-	background-image: url("/ProyectoDAO/Public/img/slider.jpg");
-}
-
-#rella{
-	width: 40%;
-}
+	.is-preload{
+	background-image: 
+	}
