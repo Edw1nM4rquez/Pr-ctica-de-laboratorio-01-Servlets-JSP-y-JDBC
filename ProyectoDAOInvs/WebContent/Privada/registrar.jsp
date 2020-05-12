@@ -27,57 +27,38 @@
 <script type="text/javascript" src="/ProyectoDAO/config/JS/validaciones.js"></script>
 
 </head>
-<body class="is-preload">
+<body class="is-preload" id="Registr">
 	<c:set var="p1" value="${requestScope['usuario']}" />
 	<c:set var="p2" value="${requestScope['idc']}" />
 
-	<!-- Header -->
+<!-- Header -->
 	<div id="header">
 
 		<div class="top">
 
-			<!-- Logo -->
+				<!-- Logo -->
 			<div id="logo">
-				<span class="image avatar48"><img
-					src="/ProyectoDAO/config/images/avatar.jpg" alt="" /></span>
-				<h1 id="title">${p1.nombres} ${p1.apellidos} </h1>
-				<p>${p1.correo}</p>
+				<h1 id="title">${p1.nombres} ${p1.apellidos}</h1>
+				<p >${p1.correo}</p>
+				<hr id="parafoq">
 			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="/ProyectoDAO/IndexController?id=2&idU=${p1.cedula}"
-						id="contact-link"><span class="icon solid fa-envelope">Contactos</span></a></li>
-					<li><a href="/ProyectoDAO/CerrarSesion" id="top-link"><span
-							class="icon solid fa-home">Cerrar sesion</span></a></li>
+					<li><a href="/ProyectoDAO/IndexController?id=2&idU=${p1.cedula}" id="contact-link"><span class="icon solid fa-envelope">Contactos</span></a></li>
+					<li><a href="/ProyectoDAO/IndexController?id=1&c=${p1.cedula}"><span class="icon solid fa-home">Registrar nuevo contacto </span></a></li>
+					<li><a href="/ProyectoDAO/CerrarSesion" id="top-link"><span class="icon solid fa-home">Cerrar sesion</span></a></li>
+
+
+					</div>
 				</ul>
 			</nav>
-
 		</div>
-
-		<div class="bottom">
-
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span
-						class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span
-						class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span
-						class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span
-						class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span
-						class="label">Email</span></a></li>
-			</ul>
-
-		</div>
-
 	</div>
 
 	<!-- Main -->
-	<div id="main">
+	<div id="main2">
 
 
 		<!-- Contact -->

@@ -8,7 +8,7 @@
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="/ProyectoDAO/config/styles/main.css" />
+
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -25,54 +25,33 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
-
+<link rel="stylesheet" href="/ProyectoDAO/config/styles/main.css" />
 </head>
 <body class="is-preload">
 	<c:set var="p1" value="${requestScope['telefono']}" />
 
-	<!-- Header -->
+<!-- Header -->
 	<div id="header">
 
 		<div class="top">
 
 			<!-- Logo -->
 			<div id="logo">
-				<span class="image avatar48"><img
-					src="/ProyectoDAO/config/images/avatar.jpg" alt="" /></span>
-				<h1 id="title">Agenda Telefonica</h1>
+				
+				<p >AGENDA TELEFONICA</p>
+				<hr id="parafoq">
 			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="/ProyectoDAO/IndexController?id=3" id="contact-link"><span
-							class="icon solid fa-envelope">Contactos</span></a></li>
-					<li><a href="/ProyectoDAO/Public/index.html" id="top-link"><span
-							class="icon solid fa-home">Home</span></a></li>
+				<li><a class="page-scroll" href="/ProyectoDAO/Public/index.html"><span class="icon solid fa-home">Inicio</span></a></li> 
+					</div>
 				</ul>
 			</nav>
-
 		</div>
-
-		<div class="bottom">
-
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span
-						class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span
-						class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span
-						class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span
-						class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span
-						class="label">Email</span></a></li>
-			</ul>
-
-		</div>
-
 	</div>
+	
 
 	<!-- Main -->
 	<div id="main">
@@ -88,12 +67,11 @@
 					<form action="/ProyectoDAO/Buscar?id=1" method="POST">
 						<div class="input-group mb-3 input-group-sm">
 							<div class="input-group-prepend">
-								<button class="input-group-text" name="buscarCorreo"
-									value="correoB" type="submit">Buscar</button>
-
+								<button class="input-group-text1" name="buscarCorreo" value="correoB" type="submit">Buscar</button>
+								<br>
 							</div>
-							<input type="text" class="form-control" name="correo"
-								placeholder="Buscar por correo.....">
+							
+							<input type="text" class="form-control" id="rella" name="correo" placeholder="Ingrese un correo electronico">
 						</div>
 					</form>
 
@@ -103,12 +81,10 @@
 					<form action="/ProyectoDAO/Buscar?id=2" method="POST">
 						<div class="input-group mb-3 input-group-sm">
 							<div class="input-group-prepend">
-								<button class="input-group-text" name="buscarCed"
-									value="cedulaB" type="submit">Buscar</button>
-
+								<button class="input-group-text1" name="buscarCed" value="cedulaB" type="submit">Buscar</button>
+								<br>
 							</div>
-							<input type="text" class="form-control" name="cedula"
-								placeholder="Buscar por cedula.....">
+							<input type="text" class="form-control" id="rella"  name="cedula" placeholder="Ingrese un numero de cedula">
 						</div>
 					</form>
 
@@ -133,14 +109,10 @@
 							<c:forEach var="telf" items="${p1}">
 								<tr>
 									<td>${telf.nombres} ${telf.apellidos}</td>
-									<td>${telf.correo}       <a href="mailto:${telf.correo} "><img width="25px"
-											height="25px"
-											src="https://img.icons8.com/flat_round/64/000000/secured-letter--v1.png" /></a></td>
+									<td>${telf.correo}       <a href="mailto:${telf.correo} ">&#128228;</a></td>
 									<td>${telf.tipo}</td>
 									<td>${telf.operadora}</td>
-									<td>${telf.numero}    <a href="tel:${telf.numero} "><img width="25px"
-											height="25px"
-											src="https://img.icons8.com/ultraviolet/40/000000/phone.png" /></a>
+									<td>${telf.numero}    <a href="tel:${telf.numero} ">&#128222;</a>
 									</td>
 								</tr>
 

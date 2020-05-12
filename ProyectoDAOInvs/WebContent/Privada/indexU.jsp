@@ -40,7 +40,8 @@
 			<!-- Logo -->
 			<div id="logo">
 				<h1 id="title">${p2.nombres} ${p2.apellidos}</h1>
-				<p>${p2.correo}</p>
+				<p >${p2.correo}</p>
+				<hr id="parafoq">
 			</div>
 
 			<!-- Nav -->
