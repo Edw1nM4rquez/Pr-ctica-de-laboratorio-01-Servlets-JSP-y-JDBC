@@ -37,7 +37,7 @@ Podrá llamar o enviar un correo electrónico desde el sistema usando aplicaciones
 <img src="Imagenes/foto7.png">
 
 <h1>Conclusiones</h1>
-<h2>La principal ventaja de utilizar JSP frente algunos lenguajes tradicionales, nos ayuda a desarrollar páginas web dinámicas basadas en HTML, XML, otro tipo de documentos.</h2>
-<h2>Los servlets nos ayuda ampliar capacidades por ejemplo de un servidor, ya que son pequeños programas que se ejecutan en el contexto de un navegador web.</h2>
-<h2>JDBC es una interfase que nos ayuda a tener acceso en la base de datos (MySql).</h2>
-<h2>Una de las ventajas de utilizar el Patrón DAO es que cualquier objeto de negocio (aquel que contiene detalles específicos de operación o aplicación) no requiere conocimiento directo del destino final de la información que manipula.</h2>
+<h4>La principal ventaja de utilizar JSP frente algunos lenguajes tradicionales, nos ayuda a desarrollar páginas web dinámicas basadas en HTML, XML, otro tipo de documentos.</h4>
+<h4>Los servlets nos ayuda ampliar capacidades por ejemplo de un servidor, ya que son pequeños programas que se ejecutan en el contexto de un navegador web.</h4>
+<h4>JDBC es una interfase que nos ayuda a tener acceso en la base de datos (MySql).</h4>
+<h4>Una de las ventajas de utilizar el Patrón DAO es que cualquier objeto de negocio (aquel que contiene detalles específicos de operación o aplicación) no requiere conocimiento directo del destino final de la información que manipula.</h4>
