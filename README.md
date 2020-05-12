@@ -3,7 +3,7 @@
 
 <h2>Base de datos</h2>
 
-<img src="Imagenes/foto8.png">
+<img src="Imagenes/foto8.PNG">
 
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC”
 <img src="Imagenes/foto.png">
